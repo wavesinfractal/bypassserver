@@ -2,8 +2,10 @@
   "name": "myapp",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://wavesinfractal.github.io:3000/bypassserver",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "deploy": "gh-pages ./bin/www"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
